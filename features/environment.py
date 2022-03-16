@@ -15,7 +15,6 @@ def before_scenario(context, scenario):
 
     context.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_capabilities=desired_capabilities)
     context.driver.implicitly_wait(5)
-    # context.driver.find_element(By.ID, 'org.wikipedia:id/fragment_onboarding_skip_button').click()
     context.app = Application(context.driver)
 
 
