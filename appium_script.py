@@ -25,5 +25,6 @@ text = driver.find_element(By.ID, 'org.wikipedia:id/page_list_item_title').text
 
 assert 'Python' in text, f'Expected Pythton to be the text: {text}'
 
+driver.close()
 
 
