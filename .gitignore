@@ -112,3 +112,4 @@ app_apk/
 .pytest_cache/
 
 jot_down_code.txt.py
+appium_script.py
